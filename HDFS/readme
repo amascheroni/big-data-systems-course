@@ -1,0 +1,12 @@
+Topic: HDFS
+Architecture: Single Node Cluster
+Programming Language: Bash
+Problem: Create a File in the Hadoop Distributed File System (HDFS). The file will be the input for the hadoop application and it will be composed by a list of numbers. Additional verifications will be made.
+
+To run the program:
+1 - move the generate.sh file into your hadoop/bin folder.
+2 - start your hadoop daemons
+3 - grant running permissions to the file with the following command: chmod u+x ./generator.sh
+4 - run ./generator.sh
+
+note that the generator script will check that the hadoop daemons are already started, and that the file to generated is not already created in the HDFS
