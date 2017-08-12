@@ -23,5 +23,10 @@ The folder "BigDataCourse" contains the source of the code
 The folder "PersonalHadoopConf" contains the conf files used for the student's vm hadoop settings
 The folder "RequiredLibs" contains the required libs that have to be imported at openning the code in an IDE
 
+Pre-requisites:
+- Having hadoop, jre and jdk installed
+- The .jar file has to be located inside the hadoop/bin folder, otherwise you will have to provide the path to the .jar in order to run it
+- You will have to run the HDFS application first before running the .jar (it generated the list of numbers)
+
 
 
