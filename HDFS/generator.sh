@@ -31,7 +31,7 @@ fi
 # Creating 700 random numbers
 echo "Creating random numbers...."
 fileInMemory="1"
-for i in {1..10}; do
+for i in {1..700}; do
     line=$(( $RANDOM % 650 ))
     fileInMemory="${fileInMemory}"$'\n'"${line}"
 done
