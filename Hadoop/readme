@@ -19,6 +19,11 @@ where 2 is the target
 inputFile is the file with numbers generetaed by the HDFS application
 and outputDir the name you choose for storing the results of your output
 
+To see the results, type "hadoop fs -cat outputDir/p*"
+You should see the following output
+	The count of multiples of 2 is: 	156
+
+
 The folder "BigDataCourse" contains the source of the code
 The folder "PersonalHadoopConf" contains the conf files used for the student's vm hadoop settings
 The folder "RequiredLibs" contains the required libs that have to be imported at openning the code in an IDE
