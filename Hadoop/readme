@@ -23,6 +23,7 @@ To see the results, type "hadoop fs -cat outputDir/p*"
 You should see the following output
 	The count of multiples of 2 is: 	156
 
+The multipleOfCount.jar is located in BigDataCourse/bin
 
 The folder "BigDataCourse" contains the source of the code
 The folder "PersonalHadoopConf" contains the conf files used for the student's vm hadoop settings
